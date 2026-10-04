@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cypher · Plugins · Paul-Eliot Kostre</title>
+  <meta name="description" content="Cypher Studio : conversion, chutiers, retours client, import web et checker d'export dans un seul panneau Premiere Pro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20">
+</head>
+<body data-base="../">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../projets.html">Projets</a>
+        <a href="../plugins.html" class="active">Plugins</a>
+        <a href="../index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a class="back" href="../plugins.html">Tous les plugins</a>
+      <div class="phero">
+        <div class="phero-text">
+        <div class="plugin-hero-logo"><span class="plugin-logo" style="--logo:url('../images/plugins/cypher.png')"></span></div>
+        <h1>Cypher Studio</h1>
+        <p class="lead">Le couteau suisse du monteur : six outils réunis dans un seul panneau Premiere Pro, de l'import des rushes jusqu'au contrôle avant export.</p>
+        <div class="hero-cta" style="justify-content:flex-start;margin-top:32px">
+          <!-- Téléchargement : Releases GitHub du dépôt cypher-suite -->
+          <a class="btn" href="https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.9.0/Installer-Cypher-2.9.0.exe">Télécharger · Windows</a>
+          <a class="btn btn-ghost" href="https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.9.0/Installer-Cypher-2.9.0-macOS.zip">macOS</a>
+          <a class="btn btn-ghost" href="#fonctions">Voir les outils</a>
+        </div>
+        </div>
+        <div class="phero-media">
+          <!-- Vidéo d'aperçu : déposez plugins/videos/cypher.mp4 (16:9, courte, sans son).
+               L'image « poster » s'affiche tant que la vidéo n'existe pas.
+               Pour une vidéo YouTube à la place, remplacez <video> par :
+               <iframe src="https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0" allowfullscreen></iframe> -->
+          <video src="videos/cypher.mp4" poster="../images/plugins/apercu-exemple.svg" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+      <dl class="project-info">
+        <div><dt>Compatible</dt><dd>Premiere Pro 2024+</dd></div>
+        <div><dt>Système</dt><dd>Windows · macOS</dd></div>
+        <div><dt>Version</dt><dd>2.9</dd></div>
+        <div><dt>Licence</dt><dd>Gratuit · Open source</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section id="fonctions" class="psec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Six outils, un panneau</p>
+          <h2>Tout le workflow au même endroit</h2>
+        </div>
+        <p class="lead">De l'import des rushes au contrôle avant export, sans quitter Premiere Pro.</p>
+      </div>
+      <div class="tgrid">
+        <div class="tcard reveal" data-video="videos/cypher-audio.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h1M7 8v8M11 4v16M15 7v10M19 10v4"/></svg></span><span class="tnum">01</span></div>
+          <h3>Audio</h3>
+          <p>Convertit les MP3, M4A et AAC du projet en WAV à côté de l'original, puis relie les clips.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/cypher-video.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></span><span class="tnum">02</span></div>
+          <h3>Vidéo</h3>
+          <p>Remux MP4 sans perte ou réencodage à cadence constante, puis import dans le chutier actif.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/cypher-chutier.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="tnum">03</span></div>
+          <h3>Chutier</h3>
+          <p>Range rushes, séquences, musiques, SFX et exports dans une arborescence standard, avec règles modifiables.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/cypher-retours.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/></svg></span><span class="tnum">04</span></div>
+          <h3>Retours</h3>
+          <p>Collez les retours client et posez-les en marqueurs sur la timeline. Cochez-les une fois traités.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/cypher-web.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.5 3.5 3.5 14.5 0 18M12 3c-3.5 3.5-3.5 14.5 0 18"/></svg></span><span class="tnum">05</span></div>
+          <h3>Web</h3>
+          <p>Collez un lien ou lancez une recherche, prévisualisez, et n'importez que le passage utile.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/cypher-checker.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><span class="tnum">06</span></div>
+          <h3>Checker</h3>
+          <p>Vérifie la séquence avant l'export et contrôle un PAD selon la norme du diffuseur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="psec" style="padding-top:0">
+    <div class="container">
+      <div class="spot checker reveal">
+        <div class="checker-text">
+          <p class="eyebrow">Aussi en application autonome</p>
+          <h2>Cypher Checker</h2>
+          <p>Contrôlez un PAD sans ouvrir Premiere : un fichier ou un dossier entier, vérifié selon la norme du diffuseur.</p>
+          <ul class="checker-feats">
+            <li><span class="ticon"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>Dossiers entiers en lot</li>
+            <li><span class="ticon"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h6M9 16h6"/></svg></span>Rapport PDF par fichier</li>
+            <li><span class="ticon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M10 5v14"/></svg></span>Récapitulatif CSV</li>
+            <li><span class="ticon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.5a5 5 0 0 1 6 5.5"/></svg></span>Profils d'équipe en un code</li>
+          </ul>
+          <div class="chips norms"><span class="chip">France TV</span><span class="chip">TF1</span><span class="chip">Canal+</span><span class="chip">EBU R128</span><span class="chip">Web</span></div>
+        </div>
+
+        <div class="appwin" aria-hidden="true">
+          <div class="appwin-bar">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <span class="appwin-title">Cypher Checker</span>
+            <span class="appwin-norm">Norme · France TV ▾</span>
+          </div>
+          <div class="appwin-body">
+            <div class="appwin-file">
+              <div class="ring-wrap"><div class="ring"></div><span>4/5</span></div>
+              <div class="appwin-name">
+                <b>PAD_Documentaire_v3.mxf</b>
+                <small>1920×1080 · 25p · 52:14</small>
+              </div>
+              <span class="state warn">1 alerte</span>
+            </div>
+
+            <div class="lufs">
+              <div class="lufs-head"><span>Loudness intégré</span><b>−21,4 LUFS</b></div>
+              <div class="lufs-bar"><span class="lufs-fill"></span><span class="lufs-target"><em>−23</em></span></div>
+            </div>
+
+            <ul class="checks">
+              <li><span class="ok">✓</span>Médias hors ligne<small>0</small></li>
+              <li><span class="ok">✓</span>Trous dans la timeline<small>0</small></li>
+              <li><span class="ok">✓</span>Cadence · résolution<small>25p · 1080</small></li>
+              <li><span class="warn">!</span>Loudness du mixage<small>+1,6 LU</small></li>
+              <li><span class="ok">✓</span>Audio 48 kHz · pistes<small>conforme</small></li>
+            </ul>
+
+            <div class="appwin-foot">
+              <span class="mini-btn">Rapport PDF</span>
+              <span class="mini-btn ghost">Récap CSV</span>
+              <span class="batch">Lot · 3 / 12 fichiers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="psec border-top">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Installation</p>
+          <h2>Prêt en trois étapes</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Fermer Premiere</h3><p>Fermez Premiere Pro, puis téléchargez l'installeur de votre système.</p></div>
+        <div class="step reveal"><h3>Lancer l'installeur</h3><p>Windows : <kbd>Installer-Cypher.exe</kbd>. Mac : dézippez puis double-cliquez <kbd>Installer Cypher</kbd>. La première fois, le système demande une confirmation : <em>Exécuter quand même</em> (Windows) ou <em>Réglages › Confidentialité et sécurité › Ouvrir quand même</em> (Mac).</p></div>
+        <div class="step reveal"><h3>Ouvrir le panneau</h3><p>Dans Premiere Pro : <kbd>Fenêtre › Extensions › Cypher — Studio</kbd>. Pour mettre à jour, relancez l'installeur.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/data.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
+</body>
+</html>

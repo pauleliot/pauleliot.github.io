@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sori · Plugins · Paul-Eliot Kostre</title>
+  <meta name="description" content="Sori : un éditeur de courbes d'animation de Bézier pour Premiere Pro, avec presets et flou de mouvement.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20">
+</head>
+<body data-base="../">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../projets.html">Projets</a>
+        <a href="../plugins.html" class="active">Plugins</a>
+        <a href="../index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a class="back" href="../plugins.html">Tous les plugins</a>
+      <div class="phero">
+        <div class="phero-text">
+        <div class="plugin-hero-logo"><span class="plugin-logo" style="--logo:url('../images/plugins/sori.png')"></span></div>
+        <h1>Sori 反り</h1>
+        <p class="lead">Sori, c'est la courbure d'une lame. Ici, c'est un éditeur de courbes d'animation pour Premiere Pro, avec des poignées de Bézier comme dans After Effects.</p>
+        <div class="hero-cta" style="justify-content:flex-start;margin-top:32px">
+          <!-- Téléchargement : Releases GitHub du dépôt cypher-suite -->
+          <a class="btn" href="https://github.com/pauleliot/cypher-suite/releases/download/sori-v1.2.2/Installer-Sori-1.2.2.exe">Télécharger · Windows</a>
+          <a class="btn btn-ghost" href="https://github.com/pauleliot/cypher-suite/releases/download/sori-v1.2.2/Installer-Sori-1.2.2-macOS.zip">macOS</a>
+          <a class="btn btn-ghost" href="#fonctions">Fonctionnalités</a>
+        </div>
+        </div>
+        <div class="phero-media">
+          <!-- Vidéo d'aperçu : déposez plugins/videos/sori.mp4 (16:9, courte, sans son).
+               L'image « poster » s'affiche tant que la vidéo n'existe pas.
+               Pour une vidéo YouTube à la place, remplacez <video> par :
+               <iframe src="https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0" allowfullscreen></iframe> -->
+          <video src="videos/sori.mp4" poster="../images/plugins/apercu-exemple.svg" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+      <dl class="project-info">
+        <div><dt>Compatible</dt><dd>Premiere Pro 2022+</dd></div>
+        <div><dt>Système</dt><dd>Windows · macOS</dd></div>
+        <div><dt>Version</dt><dd>1.2</dd></div>
+        <div><dt>Licence</dt><dd>Gratuit · Open source</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section id="fonctions" class="psec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">L'éditeur</p>
+          <h2>Tout ce qu'il faut pour animer</h2>
+        </div>
+        <p class="lead">Position, échelle, rotation et opacité des clips sélectionnés, appliquées en un raccourci.</p>
+      </div>
+
+      <div class="sori-lab reveal" data-demo-tabs>
+        <div class="demo-stage">
+          <div id="demo-0" role="tabpanel" class="demo active lab" data-curve-lab>
+            <div class="demo-top">
+              <span class="demo-label"><b data-lab-name>Cubic</b></span>
+            </div>
+            <svg class="lab-graph" viewBox="0 -35 200 290" aria-hidden="true">
+              <g class="lab-grid"><path d="M20 50h160M20 110h160M20 170h160M20 50v120M100 50v120M180 50v120"/></g>
+              <path class="lab-linear" d="M20 170 L180 50"/>
+              <line class="lab-handle" data-h1 x1="20" y1="170" x2="20" y2="170"/>
+              <line class="lab-handle" data-h2 x1="180" y1="50" x2="180" y2="50"/>
+              <path class="lab-curve" data-curve d="M20 170 L180 50"/>
+              <circle class="lab-knob" data-k1 r="6" cx="20" cy="170"/>
+              <circle class="lab-knob" data-k2 r="6" cx="180" cy="50"/>
+              <circle class="lab-dot-svg" data-dot r="6" cx="20" cy="170"/>
+              <rect class="lab-key" x="14" y="164" width="12" height="12" transform="rotate(45 20 170)"/>
+              <rect class="lab-key" x="174" y="44" width="12" height="12" transform="rotate(45 180 50)"/>
+            </svg>
+          </div>
+          <div id="demo-1" role="tabpanel" class="demo vs-demo">
+            <div class="demo-top">
+              <span class="demo-label"><b class="vs-on-val">Valeur</b><b class="vs-on-spd">Vitesse</b></span>
+            </div>
+            <svg class="lab-graph" viewBox="0 20 200 180" aria-hidden="true">
+              <g class="lab-grid"><path d="M20 50h160M20 110h160M20 170h160M20 50v120M100 50v120M180 50v120"/></g>
+              <path class="lab-linear vs-on-spd" d="M20 130 H180"/>
+              <path class="lab-curve vs-val" d="M20.0 170.0 L25.1 169.9 L29.9 169.6 L34.5 169.1 L38.9 168.5 L43.0 167.6 L46.9 166.6 L50.7 165.5 L54.2 164.2 L57.6 162.7 L60.7 161.1 L63.7 159.4 L66.6 157.5 L69.3 155.5 L71.8 153.4 L74.2 151.2 L76.5 149.0 L78.7 146.6 L80.8 144.1 L82.7 141.5 L84.6 138.9 L86.4 136.2 L88.1 133.4 L89.7 130.6 L91.3 127.8 L92.8 124.9 L94.3 121.9 L95.8 119.0 L97.2 116.0 L98.6 113.0 L100.0 110.0 L101.4 107.0 L102.8 104.0 L104.2 101.0 L105.7 98.1 L107.2 95.1 L108.7 92.2 L110.3 89.4 L111.9 86.6 L113.6 83.8 L115.4 81.1 L117.3 78.5 L119.2 75.9 L121.3 73.4 L123.5 71.0 L125.8 68.8 L128.2 66.6 L130.7 64.5 L133.4 62.5 L136.3 60.6 L139.3 58.9 L142.4 57.3 L145.8 55.8 L149.3 54.5 L153.1 53.4 L157.0 52.4 L161.1 51.5 L165.5 50.9 L170.1 50.4 L174.9 50.1 L180.0 50.0"/>
+              <path class="lab-curve vs-spd" d="M20.0 170.0 L25.1 167.8 L29.9 165.4 L34.5 162.9 L38.9 160.2 L43.0 157.3 L46.9 154.2 L50.7 150.9 L54.2 147.4 L57.6 143.7 L60.7 139.8 L63.7 135.6 L66.6 131.1 L69.3 126.5 L71.8 121.5 L74.2 116.4 L76.5 111.0 L78.7 105.4 L80.8 99.7 L82.7 93.9 L84.6 88.0 L86.4 82.2 L88.1 76.6 L89.7 71.1 L91.3 66.1 L92.8 61.5 L94.3 57.6 L95.8 54.3 L97.2 52.0 L98.6 50.5 L100.0 50.0 L101.4 50.5 L102.8 52.0 L104.2 54.3 L105.7 57.6 L107.2 61.5 L108.7 66.1 L110.3 71.1 L111.9 76.6 L113.6 82.2 L115.4 88.0 L117.3 93.9 L119.2 99.7 L121.3 105.4 L123.5 111.0 L125.8 116.4 L128.2 121.5 L130.7 126.5 L133.4 131.1 L136.3 135.6 L139.3 139.8 L142.4 143.7 L145.8 147.4 L149.3 150.9 L153.1 154.2 L157.0 157.3 L161.1 160.2 L165.5 162.9 L170.1 165.4 L174.9 167.8 L180.0 170.0"/>
+              <line class="vs-head" x1="20" y1="44" x2="20" y2="176"/>
+            </svg>
+          </div>
+          <div id="demo-2" role="tabpanel" class="demo blur-demo">
+            <div class="demo-top">
+              <span class="demo-label"><b>Flou de mouvement</b></span>
+            </div>
+            <div class="blur-stage" aria-hidden="true">
+              <div class="blur-row"><span class="blur-tag">Sans</span><div class="blur-rail"><i class="blur-box"></i></div></div>
+              <div class="blur-row on"><span class="blur-tag">Avec</span><div class="blur-rail">
+                <i class="blur-box g4"></i><i class="blur-box g3"></i><i class="blur-box g2"></i><i class="blur-box g1"></i><i class="blur-box"></i>
+              </div></div>
+            </div>
+          </div>
+        </div>
+        <ul class="sori-feats" role="tablist">
+          <li><button type="button" role="tab" aria-selected="true" aria-controls="demo-0" class="demo-tab active">
+            <span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19C9 19 9 5 20 5"/><path d="M4 19h5M20 5h-5"/><circle cx="9" cy="19" r="1.6"/><circle cx="15" cy="5" r="1.6"/></svg></span>
+            <div><b>Courbe de Bézier</b><span>Poignées libres, à plat ou cassées, sous-clés en double-clic, et une bibliothèque de presets : Ease, Expo, Back, Elastic, Bounce…</span></div>
+          </button></li>
+          <li><button type="button" role="tab" aria-selected="false" aria-controls="demo-1" class="demo-tab">
+            <span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17a8 8 0 1 1 16 0"/><path d="M12 17l4-5"/></svg></span>
+            <div><b>Valeur ou vitesse</b><span>Basculez d'une touche entre l'amplitude du mouvement et sa vitesse pour régler précisément l'accélération.</span></div>
+          </button></li>
+          <li><button type="button" role="tab" aria-selected="false" aria-controls="demo-2" class="demo-tab">
+            <span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h9M1 12h12M4 16h8"/><circle cx="17" cy="12" r="4"/></svg></span>
+            <div><b>Flou de mouvement</b><span>Sori bascule l'animation sur un effet Transformation et règle l'obturateur : 90°, 180° ou 360°.</span></div>
+          </button></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="psec border-top">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Installation</p>
+          <h2>Prêt en trois étapes</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Fermer Premiere</h3><p>Fermez Premiere Pro, puis téléchargez l'installeur de votre système.</p></div>
+        <div class="step reveal"><h3>Lancer l'installeur</h3><p>Windows : <kbd>Installer-Sori.exe</kbd>. Mac : dézippez puis double-cliquez <kbd>Installer Sori</kbd>. La première fois, le système demande une confirmation : <em>Exécuter quand même</em> (Windows) ou <em>Réglages › Confidentialité et sécurité › Ouvrir quand même</em> (Mac).</p></div>
+        <div class="step reveal"><h3>Ouvrir le panneau</h3><p>Dans Premiere Pro : <kbd>Fenêtre › Extensions › Sori — Courbes</kbd>.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/data.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
+</body>
+</html>

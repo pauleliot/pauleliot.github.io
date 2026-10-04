@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+  ================================================================
+  MODÈLE DE PAGE PLUGIN
+  1. Copiez ce fichier dans plugins/ et renommez-le (ex. plugins/mon-plugin.html)
+  2. Remplacez les textes « À REMPLIR »
+  3. Dans js/data.js (liste PLUGINS), mettez :  page: "plugins/mon-plugin.html"
+  ================================================================
+-->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À REMPLIR : Nom du plugin · Paul-Eliot Kostre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20">
+</head>
+<body data-base="../">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../projets.html">Projets</a>
+        <a href="../plugins.html" class="active">Plugins</a>
+        <a href="../index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a class="back" href="../plugins.html">Tous les plugins</a>
+      <div class="phero">
+        <div class="phero-text">
+        <!-- Logo : PNG transparent dans images/plugins/ -->
+        <div class="plugin-hero-logo"><span class="plugin-logo" style="--logo:url('../images/plugins/NOM.png')"></span></div>
+        <h1>À REMPLIR : Nom du plugin</h1>
+        <p class="lead">À REMPLIR : l'accroche. Quel problème ce plugin règle-t-il&nbsp;?</p>
+        <div class="hero-cta" style="justify-content:flex-start;margin-top:32px">
+          <!-- Lien de téléchargement ou de boutique -->
+          <a class="btn" href="#">À REMPLIR : Télécharger</a>
+          <a class="btn btn-ghost" href="mailto:pauleliot.kostre@gmail.com">Une question&nbsp;?</a>
+        </div>
+        </div>
+        <div class="phero-media">
+          <!-- Vidéo d'aperçu : déposez plugins/videos/NOM.mp4 (16:9, courte, sans son).
+               L'image « poster » s'affiche tant que la vidéo n'existe pas.
+               Pour une vidéo YouTube à la place, remplacez <video> par :
+               <iframe src="https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0" allowfullscreen></iframe> -->
+          <video src="videos/NOM.mp4" poster="../images/plugins/apercu-exemple.svg" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+      <dl class="project-info">
+        <div><dt>Compatible</dt><dd>À REMPLIR (ex. Premiere Pro 2024+)</dd></div>
+        <div><dt>Système</dt><dd>À REMPLIR (Windows / macOS)</dd></div>
+        <div><dt>Version</dt><dd>À REMPLIR</dd></div>
+        <div><dt>Licence</dt><dd>Gratuit · Open source</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section style="padding-top:20px;padding-bottom:40px">
+    <div class="container">
+      <!-- Vidéo de démo : remplacez ID_VIDEO -->
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0" title="Démo du plugin" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose reveal">
+        <h2>Le problème</h2>
+        <div><p>À REMPLIR : la tâche répétitive ou frustrante que tout monteur connaît.</p></div>
+      </div>
+      <div class="prose reveal">
+        <h2>Fonctionnalités</h2>
+        <div>
+          <ul>
+            <li>À REMPLIR : fonctionnalité</li>
+            <li>À REMPLIR : fonctionnalité</li>
+            <li>À REMPLIR : fonctionnalité</li>
+          </ul>
+        </div>
+      </div>
+      <div class="prose reveal">
+        <h2>Installation</h2>
+        <div><p>À REMPLIR : les étapes pour installer le plugin.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/data.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
+</body>
+</html>

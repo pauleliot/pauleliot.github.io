@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Image d'exemple : remplacez-la par une capture de votre plug-in (images/plugins/apercu-nom.jpg) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241a45"/>
+      <stop offset="1" stop-color="#0d0a1a"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b6cf6"/>
+      <stop offset="1" stop-color="#b69cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- fenêtre du panneau -->
+  <rect x="150" y="60" width="500" height="380" rx="14" fill="#17122b" stroke="#ffffff" stroke-opacity=".1"/>
+  <rect x="150" y="60" width="500" height="40" rx="14" fill="#1f1839"/>
+  <rect x="150" y="86" width="500" height="14" fill="#1f1839"/>
+  <circle cx="172" cy="80" r="5" fill="#fbe6a6"/>
+  <rect x="186" y="75" width="70" height="10" rx="5" fill="#f6f3ff" fill-opacity=".8"/>
+  <!-- onglets -->
+  <rect x="170" y="116" width="70" height="22" rx="11" fill="#fbe6a6"/>
+  <rect x="248" y="116" width="62" height="22" rx="11" fill="#ffffff" fill-opacity=".06"/>
+  <rect x="318" y="116" width="62" height="22" rx="11" fill="#ffffff" fill-opacity=".06"/>
+  <!-- courbe / onde -->
+  <rect x="170" y="152" width="460" height="150" rx="10" fill="#0d0a1a" stroke="#b69cff" stroke-opacity=".25"/>
+  <path d="M190 280 C 300 280, 330 170, 610 172" fill="none" stroke="url(#wave)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="190" y1="280" x2="290" y2="280" stroke="#fbe6a6" stroke-opacity=".6" stroke-width="2"/>
+  <line x1="610" y1="172" x2="470" y2="172" stroke="#fbe6a6" stroke-opacity=".6" stroke-width="2"/>
+  <circle cx="290" cy="280" r="7" fill="#fbe6a6"/>
+  <circle cx="470" cy="172" r="7" fill="#fbe6a6"/>
+  <circle cx="190" cy="280" r="5" fill="#f6f3ff"/>
+  <circle cx="610" cy="172" r="5" fill="#f6f3ff"/>
+  <!-- lignes de liste -->
+  <g fill="#ffffff" fill-opacity=".06">
+    <rect x="170" y="316" width="460" height="30" rx="8"/>
+    <rect x="170" y="352" width="460" height="30" rx="8"/>
+  </g>
+  <rect x="182" y="327" width="140" height="8" rx="4" fill="#f6f3ff" fill-opacity=".55"/>
+  <rect x="182" y="363" width="110" height="8" rx="4" fill="#f6f3ff" fill-opacity=".35"/>
+  <rect x="540" y="398" width="90" height="26" rx="13" fill="#fbe6a6"/>
+  <text x="400" y="478" text-anchor="middle" font-family="Urbanist, Segoe UI, sans-serif" font-size="13" letter-spacing="3" fill="#b2a9cc">APERÇU À VENIR</text>
+</svg>

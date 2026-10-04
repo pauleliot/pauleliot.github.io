@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ongaku · Plugins · Paul-Eliot Kostre</title>
+  <meta name="description" content="Ongaku : bibliothèque musique et SFX pour Premiere Pro, avec détection du BPM, marqueurs sur les beats et fins de morceau.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20">
+</head>
+<body data-base="../">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../projets.html">Projets</a>
+        <a href="../plugins.html" class="active">Plugins</a>
+        <a href="../index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a class="back" href="../plugins.html">Tous les plugins</a>
+      <div class="phero">
+        <div class="phero-text">
+        <div class="plugin-hero-logo"><span class="plugin-logo" style="--logo:url('../images/plugins/ongaku.png')"></span></div>
+        <h1>Ongaku 音楽</h1>
+        <p class="lead">Votre bibliothèque musique et SFX directement dans Premiere Pro : écouter, trouver le tempo, caler le montage sur les beats et terminer un morceau proprement.</p>
+        <div class="hero-cta" style="justify-content:flex-start;margin-top:32px">
+          <!-- Téléchargement : Releases GitHub du dépôt cypher-suite -->
+          <a class="btn" href="https://github.com/pauleliot/cypher-suite/releases/download/ongaku-v1.7.1/Installer-Ongaku-1.7.1.exe">Télécharger · Windows</a>
+          <a class="btn btn-ghost" href="https://github.com/pauleliot/cypher-suite/releases/download/ongaku-v1.7.1/Installer-Ongaku-1.7.1-macOS.zip">macOS</a>
+          <a class="btn btn-ghost" href="#fonctions">Fonctionnalités</a>
+        </div>
+        </div>
+        <div class="phero-media">
+          <!-- Vidéo d'aperçu : déposez plugins/videos/ongaku.mp4 (16:9, courte, sans son).
+               L'image « poster » s'affiche tant que la vidéo n'existe pas.
+               Pour une vidéo YouTube à la place, remplacez <video> par :
+               <iframe src="https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0" allowfullscreen></iframe> -->
+          <video src="videos/ongaku.mp4" poster="../images/plugins/apercu-exemple.svg" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+      <dl class="project-info">
+        <div><dt>Compatible</dt><dd>Premiere Pro 2022+</dd></div>
+        <div><dt>Système</dt><dd>Windows · macOS</dd></div>
+        <div><dt>Version</dt><dd>1.7</dd></div>
+        <div><dt>Licence</dt><dd>Gratuit · Open source</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section id="fonctions" class="psec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Fonctionnalités</p>
+          <h2>Votre musique, calée sur le rythme</h2>
+        </div>
+        <p class="lead">Écouter, trouver le tempo, caler le montage sur les beats et finir un morceau proprement.</p>
+      </div>
+      <div class="tgrid">
+        <div class="tcard reveal" data-video="videos/ongaku-bibliotheque.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg></span><span class="tnum">01</span></div>
+          <h3>Bibliothèque</h3>
+          <p>Vos dossiers Musique et SFX scannés, avec titres, artistes, pochettes et formes d'onde.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/ongaku-beats.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M9 20V4M14 20V12M19 20V7"/><path d="M2 20h20"/></svg></span><span class="tnum">02</span></div>
+          <h3>Beats</h3>
+          <p>BPM, temps et premiers temps de mesure détectés, puis posés en marqueurs sur le clip.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/ongaku-fins-de-morceau.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17c6 0 9-11 18-11"/><path d="M3 20h18"/></svg></span><span class="tnum">03</span></div>
+          <h3>Fins de morceau</h3>
+          <p>Point de sortie calé sur la mesure, avec reverb tail, vinyl stop ou fondu, rendu en un clic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="psec border-top">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Installation</p>
+          <h2>Prêt en trois étapes</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Fermer Premiere</h3><p>Fermez Premiere Pro, puis téléchargez l'installeur de votre système.</p></div>
+        <div class="step reveal"><h3>Lancer l'installeur</h3><p>Windows : <kbd>Installer-Ongaku.exe</kbd>. Mac : dézippez puis double-cliquez <kbd>Installer Ongaku</kbd>. La première fois, le système demande une confirmation : <em>Exécuter quand même</em> (Windows) ou <em>Réglages › Confidentialité et sécurité › Ouvrir quand même</em> (Mac).</p></div>
+        <div class="step reveal"><h3>Ouvrir le panneau</h3><p>Dans Premiere Pro : <kbd>Fenêtre › Extensions › Ongaku — Musique</kbd>.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/data.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
+</body>
+</html>

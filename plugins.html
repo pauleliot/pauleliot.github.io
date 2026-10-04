@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plugins · Paul-Eliot Kostre</title>
+  <meta name="description" content="Cypher, Ongaku, Sori et Kiru : des extensions Premiere Pro conçues par un monteur pour accélérer le workflow de post-production.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20">
+</head>
+<body data-base="">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="plugins.html" class="active">Plugins</a>
+        <a href="index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="container">
+      <p class="eyebrow">La boîte à outils du monteur</p>
+      <h1>Plugins</h1>
+      <p class="lead">Quatre extensions pour Premiere Pro, pensées depuis la salle de montage : <strong style="color:var(--text)">Cypher</strong> pour le workflow, <strong style="color:var(--text)">Ongaku</strong> pour la musique, <strong style="color:var(--text)">Sori</strong> pour l'animation, <strong style="color:var(--text)">Kiru</strong> pour l'autocut et les sous-titres.</p>
+    </div>
+  </header>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <!-- Rempli automatiquement depuis js/data.js (liste PLUGINS) -->
+      <div class="plugin-grid" data-plugins></div>
+        <span>Une seule suite : thème, nom affiché et couleurs sont partagés entre les quatre panneaux. Un changement dans l'un s'applique aux autres.</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js?v=20"></script>
+  <script src="js/main.js?v=20"></script>
+</body>
+</html>

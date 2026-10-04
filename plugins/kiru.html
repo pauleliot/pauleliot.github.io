@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiru · Plugins · Paul-Eliot Kostre</title>
+  <meta name="description" content="Kiru : autocut par le texte et sous-titres pour Premiere Pro, avec une transcription qui tourne sur votre ordinateur.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20">
+</head>
+<body data-base="../">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Paul-Eliot Kostre</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../projets.html">Projets</a>
+        <a href="../plugins.html" class="active">Plugins</a>
+        <a href="../index.html#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a class="back" href="../plugins.html">Tous les plugins</a>
+      <div class="phero">
+        <div class="phero-text">
+        <div class="plugin-hero-logo"><span class="plugin-logo" style="--logo:url('../images/plugins/kiru.png')"></span></div>
+        <h1>Kiru 切る</h1>
+        <p class="lead">Kiru, c'est couper. Il transcrit votre séquence sur votre ordinateur, retire l'inutile (silences, hésitations, reprises) et pose des sous-titres calés mot à mot.</p>
+        <div class="hero-cta" style="justify-content:flex-start;margin-top:32px">
+          <a class="btn" href="https://github.com/pauleliot/cypher-suite/releases/download/kiru-v1.2.0/Installer-Kiru-1.2.0.exe">Télécharger · Windows</a>
+          <a class="btn btn-ghost" href="https://github.com/pauleliot/cypher-suite/releases/download/kiru-v1.2.0/Installer-Kiru-1.2.0-macOS.zip">macOS</a>
+        </div>
+        </div>
+        <div class="phero-media">
+          <!-- Vidéo d'aperçu : déposez plugins/videos/kiru.mp4 (16:9, courte, sans son).
+               L'image « poster » s'affiche tant que la vidéo n'existe pas. -->
+          <video src="videos/kiru.mp4" poster="../images/plugins/apercu-exemple.svg" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+      <dl class="project-info">
+        <div><dt>Compatible</dt><dd>Premiere Pro 2022+</dd></div>
+        <div><dt>Système</dt><dd>Windows · macOS</dd></div>
+        <div><dt>Version</dt><dd>1.2</dd></div>
+        <div><dt>Licence</dt><dd>Gratuit · Open source</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section id="fonctions" class="psec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Fonctionnalités</p>
+          <h2>Couper par le texte, sous-titrer sans retouche</h2>
+        </div>
+        <p class="lead">Deux étapes : nettoyer la séquence, puis la sous-titrer. Rien n'est envoyé en ligne pour la transcription.</p>
+      </div>
+      <div class="tgrid">
+        <div class="tcard reveal" data-video="videos/kiru-nettoyer.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.1 8.1 20 20M20 4 8.1 15.9"/></svg></span><span class="tnum">01</span></div>
+          <h3>Couper l'inutile</h3>
+          <p>Silences, hésitations, reprises et faux départs repérés dans le texte. Vous vérifiez, Kiru coupe en gardant la synchro.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/kiru-transcription.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></span><span class="tnum">02</span></div>
+          <h3>Transcription locale</h3>
+          <p>whisper.cpp sur votre carte graphique : chaque mot calé sur la voix, les prises répétées retrouvées, corrigeable d'un double-clic.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/kiru-sous-titres.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 12h4M14 12h4M6 15h8"/></svg></span><span class="tnum">03</span></div>
+          <h3>Sous-titres stylés</h3>
+          <p>Façon Shorts et Reels : le mot prononcé dans une boîte qui glisse, découpage par phrases, tout reste modifiable dans Premiere.</p>
+        </div>
+        <div class="tcard reveal" data-video="videos/kiru-interview.mp4">
+          <div class="tcard-top"><span class="ticon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span class="tnum">04</span></div>
+          <h3>Sous-titres d'interview</h3>
+          <p>Texte nettoyé par Claude, découpé par idées, temps calés à l'image : piste de sous-titres Premiere ou SRT, avec la liste des passages retirés.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="psec border-top">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Installation</p>
+          <h2>Prêt en trois étapes</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Fermer Premiere</h3><p>Fermez Premiere Pro, puis téléchargez l'installeur de votre système.</p></div>
+        <div class="step reveal"><h3>Lancer l'installeur</h3><p>Windows : <kbd>Installer-Kiru.exe</kbd>. Mac : dézippez puis double-cliquez <kbd>Installer Kiru</kbd>. La première fois, le système demande une confirmation : <em>Exécuter quand même</em> (Windows) ou <em>Réglages › Confidentialité et sécurité › Ouvrir quand même</em> (Mac).</p></div>
+        <div class="step reveal"><h3>Ouvrir le panneau</h3><p>Dans Premiere Pro : <kbd>Fenêtre › Extensions › Kiru — Autocut</kbd>. La transcription s'installe ensuite depuis les réglages du panneau.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Paul-Eliot Kostre · Monteur vidéo freelance</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paul-eliot-kostre/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pauleliot.kostre@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/data.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
+</body>
+</html>
