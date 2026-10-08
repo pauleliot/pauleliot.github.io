@@ -2,10 +2,10 @@
   "apps": {
     "cypher": {
       "name": "Cypher",
-      "version": "2.10.0",
-      "notes": "- Cypher Console (façon FX Console) : Ctrl+Espace (Windows) ou ⌥Espace (Mac) dans Premiere ouvre une petite fenêtre ; tapez le nom d'un effet vidéo ou audio, Entrée l'applique aux clips sélectionnés. Favoris (Ctrl+D) et derniers effets utilisés.\n- Retours : réponses Vimeo regroupées sous leur commentaire (plus de retour posé plusieurs fois), versions V1 / V2 reconnues avec filtre, choix de la version importée par la synchro Vimeo (la plus récente par défaut).\n- Retours : poignée pour agrandir la zone de texte, « + » pour lire un retour long en entier, option « Inclure les réponses ».\n- Audio : liste des fichiers convertis, mis en surbrillance dans le chutier.\n- Chutier › Modifier ouvre directement les réglages des chutiers.\n- Mises à jour : le panneau propose lui-même les nouvelles versions.",
-      "url": "https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.10.0/Cypher-2.10.0-update.zip",
-      "sha256": "6d0c31f1efb1659485adf58ed2f634cfb7da154641fdc365347924a29e822835"
+      "version": "2.10.1",
+      "notes": "- Retours : import des CSV Vimeo corrigé (plus de fausse réponse « -- » sous chaque retour, apostrophes et guillemets propres, version lue dans « Video Version », auteur de chaque réponse).\n- macOS : l'installeur affiche une fenêtre de progression qui reste ouverte jusqu'au résultat.\n- macOS : ⌥Espace explique quelle autorisation « Accessibilité » activer, ouvre les réglages et démarre dès qu'elle est donnée (journal : ~/Library/Logs/Cypher-raccourci.log).",
+      "url": "https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.10.1/Cypher-2.10.1-update.zip",
+      "sha256": "3f65b454cd25168858f3dfe4ad2bc3b2554ceffd2ae5264d2fa84f5f7cb1da71"
     }
   }
 }
