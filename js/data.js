@@ -102,7 +102,7 @@ const CATEGORIES = {
   Champs d'un plugin :
   - nom, sous (petit texte à côté du nom), accroche, description
   - logo      : image PNG transparente (coloriée automatiquement), sinon "initiale"
-  - apercu    : capture du plugin (ex. "images/plugins/apercu-cypher.jpg", format 16:10 conseillé)
+  - apercu    : capture du plugin (ex. "images/plugins/apercu-mori.jpg", format 16:10 conseillé)
   - logiciels : ["Premiere Pro", "Windows", ...]
   - prix      : "Gratuit", "14,99 €"... ou "" pour ne rien afficher
   - statut    : (optionnel) "Nouveau", "Bientôt", "Bêta", "v1.2"...
@@ -111,16 +111,16 @@ const CATEGORIES = {
 */
 const PLUGINS = [
   {
-    nom: "Cypher",
+    nom: "Mori",
     sous: "Studio",
-    logo: "images/plugins/cypher.png",
-    apercu: "images/plugins/apercu-exemple.svg", // → remplacer par images/plugins/apercu-cypher.jpg
+    logo: "images/plugins/mori.png",
+    apercu: "images/plugins/apercu-exemple.svg", // → remplacer par images/plugins/apercu-mori.jpg
     accroche: "Le couteau suisse du monteur, dans un seul panneau.",
     description: "Conversion audio et vidéo, rangement des chutiers, retours client en marqueurs, import web et vérification avant export aux normes diffuseurs.",
     logiciels: ["Premiere Pro", "Windows", "macOS"],
     prix: "",
     statut: "v2.9",
-    page: "plugins/cypher.html"
+    page: "plugins/mori.html"
   },
   {
     nom: "Ongaku",

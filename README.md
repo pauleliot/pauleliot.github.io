@@ -51,14 +51,14 @@ Glissez le dossier sur [Netlify Drop](https://app.netlify.com/drop), ou utilisez
 - Logos des logiciels (accueil) : chargés depuis le site Odoo, Wikimedia et reaper.fm. Pour ne dépendre
   de personne, enregistrez-les dans `images/logiciels/` et changez les `src` dans `index.html`.
 - Compléter les sections « À REMPLIR » des pages projets.
-- Plugins (Cypher, Ongaku, Sori) : ajouter le prix et le vrai lien de téléchargement / boutique
+- Plugins (Mori, Ongaku, Sori) : ajouter le prix et le vrai lien de téléchargement / boutique
   dans `plugins/*.html` (les boutons « Obtenir » ouvrent pour l'instant un e-mail) et dans `js/data.js`.
-- Vidéos d'aperçu en haut des pages plugin : déposez `plugins/videos/cypher.mp4`, `ongaku.mp4`, `sori.mp4`
+- Vidéos d'aperçu en haut des pages plugin : déposez `plugins/videos/mori.mp4`, `ongaku.mp4`, `sori.mp4`
   (16:9, courtes, sans son : elles tournent en boucle). Tant qu'elles n'existent pas, l'image d'exemple s'affiche.
 - Démos au survol des fonctionnalités : une petite vidéo par carte, dans `plugins/videos/`, nommée
-  `<plugin>-<fonction>.mp4` (ex. `cypher-audio.mp4`, `ongaku-beats.mp4`, `sori-presets.mp4`).
+  `<plugin>-<fonction>.mp4` (ex. `mori-audio.mp4`, `ongaku-beats.mp4`, `sori-presets.mp4`).
   Le nom exact de chaque carte est dans l'attribut `data-video` de la page. Sans fichier : « Démo à venir ».
-- Aperçus des plugins : déposez vos captures dans `images/plugins/` (ex. `apercu-cypher.jpg`, format 16:10)
+- Aperçus des plugins : déposez vos captures dans `images/plugins/` (ex. `apercu-mori.jpg`, format 16:10)
   puis changez le champ `apercu` du plugin dans `js/data.js`.
 - Logos des plugins : `images/plugins/`. Dans un `style="--logo:url(...)"`, le chemin part du dossier
   `css/`, donc toujours `url('../images/plugins/nom.png')`.
