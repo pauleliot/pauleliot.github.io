@@ -3,7 +3,7 @@
    Couleurs et typos modifiables ici (variables :root)
    ========================================================= */
 :root {
-  /* DA de la suite Cypher / Ongaku / Sori, en violet */
+  /* DA de la suite Mori / Ongaku / Sori, en violet */
   --bg: #0d0a1a;
   --bg-2: #140f26;
   --surface: #1b1533;
@@ -627,7 +627,7 @@ kbd { font-family: var(--mono); font-size: 0.85em; padding: 1px 6px; border-radi
 .checks small { margin-left: auto; font-family: var(--mono); font-size: 10.5px; color: var(--faint); }
 @media (max-width: 860px) { .spot { grid-template-columns: 1fr; } }
 
-/* Bandeau Cypher Checker : fausse fenêtre d'application */
+/* Bandeau Mori Checker : fausse fenêtre d'application */
 .spot.checker { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); }
 .checker-feats { list-style: none; padding: 0; margin: 20px 0 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .checker-feats li { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text); }
