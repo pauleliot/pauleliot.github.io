@@ -6,6 +6,34 @@
       "notes": "- Apparence : la police choisie s'applique maintenant à tout le panneau Cypher (elle restait en Urbanist).",
       "url": "https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.11.1/Cypher-2.11.1-update.zip",
       "sha256": "2a57d5eb122cfaf8b4e3a3b5341e78a6caf3efd0cc5557764d8cbce7daef54b2"
+    },
+    "mori": {
+      "name": "Mori",
+      "version": "2.12.0",
+      "notes": "- Le panneau change de nom : il s'appelle maintenant Mori (« le gardien »). Mêmes outils, mêmes raccourcis ; dans Premiere : Fenêtre > Extensions > Mori.\n- L'installeur reprend vos réglages, vos favoris de la console et les outils déjà téléchargés, puis retire l'ancien panneau.\n- Apparence : les champs de couleur acceptent un code collé (#E50914, E50914, rgb(229, 9, 20)) ; un clic sélectionne tout le code.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.0/Mori-2.12.0-update.zip",
+      "sha256": "075cdcc259a11e958937092eeec7adf09e9066da267a6929f1470f953840f670"
+    },
+    "ongaku": {
+      "name": "Ongaku",
+      "version": "1.8.0",
+      "notes": "- Apparence : police de l'interface au choix (Urbanist, Space Grotesk, Inter) ou police importée, commune à Mori, Ongaku, Sori et Kiru.\n- Mises à jour : le panneau propose lui-même les nouvelles versions.\n- Le panneau Cypher de la suite s'appelle maintenant Mori : thème, police et nom affiché restent partagés entre les quatre panneaux.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/ongaku-v1.8.0/Ongaku-1.8.0-update.zip",
+      "sha256": "d7da84d5730995dfbf597a507ae60bbe2f4170c2c481d2a95c277360c4748513"
+    },
+    "sori": {
+      "name": "Sori",
+      "version": "1.3.0",
+      "notes": "- Apparence : police de l'interface au choix (Urbanist, Space Grotesk, Inter) ou police importée, commune à Mori, Ongaku, Sori et Kiru.\n- Mises à jour : le panneau propose lui-même les nouvelles versions.\n- Le panneau Cypher de la suite s'appelle maintenant Mori : thème, police et nom affiché restent partagés entre les quatre panneaux.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/sori-v1.3.0/Sori-1.3.0-update.zip",
+      "sha256": "24d799731cb800ce7597d32f93a2854b3e6a21d04b9d0e8e3720850f80c504ab"
+    },
+    "kiru": {
+      "name": "Kiru",
+      "version": "1.3.0",
+      "notes": "- Apparence : police de l'interface au choix (Urbanist, Space Grotesk, Inter) ou police importée, commune à Mori, Ongaku, Sori et Kiru.\n- Mises à jour : le panneau propose lui-même les nouvelles versions.\n- Le panneau Cypher de la suite s'appelle maintenant Mori : thème, police et nom affiché restent partagés entre les quatre panneaux.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/kiru-v1.3.0/Kiru-1.3.0-update.zip",
+      "sha256": "6d3722cb6f9c119a0cb0be332bb0e2529b90373905bbf52c5ce3e0117f1be5b8"
     }
   }
 }
