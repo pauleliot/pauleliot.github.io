@@ -2,10 +2,10 @@
   "apps": {
     "cypher": {
       "name": "Cypher",
-      "version": "2.10.1",
-      "notes": "- Retours : import des CSV Vimeo corrigé (plus de fausse réponse « -- » sous chaque retour, apostrophes et guillemets propres, version lue dans « Video Version », auteur de chaque réponse).\n- macOS : l'installeur affiche une fenêtre de progression qui reste ouverte jusqu'au résultat.\n- macOS : ⌥Espace explique quelle autorisation « Accessibilité » activer, ouvre les réglages et démarre dès qu'elle est donnée (journal : ~/Library/Logs/Cypher-raccourci.log).",
-      "url": "https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.10.1/Cypher-2.10.1-update.zip",
-      "sha256": "3f65b454cd25168858f3dfe4ad2bc3b2554ceffd2ae5264d2fa84f5f7cb1da71"
+      "version": "2.11.0",
+      "notes": "- Cypher Console : vos presets d'effets (Effets > Préconfigurations) sont proposés et appliqués aux clips sélectionnés, avec leurs réglages et images clés. Bouton « Presets » (ou Tab).\n- Cypher Console : fenêtre plus petite, liste des effets relue moins souvent, fermeture plus rapide après application.\n- Retours : la poignée sous la zone de texte se maintient et se glisse pour agrandir ou réduire.\n- Apparence : police de l'interface au choix (Urbanist, Space Grotesk, Inter) ou police importée (.ttf, .otf, .woff, .woff2), commune à Cypher, Ongaku, Sori et Kiru.\n- Interface : onglets en icônes quand le panneau est étroit (plus d'onglet coupé), mode AUTO expliqué sous son bouton, réglages « Apparence » à part, messages d'erreur plus clairs.\n- macOS : fenêtre de l'installeur corrigée (bouton « Fermer », pastille rouge, texte aéré).\n- Panneau masqué : Premiere n'est plus interrogé en arrière-plan (suivi de la timeline et du projet en pause).\n- Cypher Console (macOS) : le délai d'ouverture est noté dans ~/Library/Logs/Cypher-raccourci.log pour le diagnostic.",
+      "url": "https://github.com/pauleliot/cypher-suite/releases/download/cypher-v2.11.0/Cypher-2.11.0-update.zip",
+      "sha256": "359e3cf34abd6733b6a8d167ff105c6ccdddc25702f9a7ae7fecc60de2a61fde"
     }
   }
 }
