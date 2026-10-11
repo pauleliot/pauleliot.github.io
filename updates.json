@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.0",
-      "notes": "- Le panneau change de nom : il s'appelle maintenant Mori (« le gardien »). Mêmes outils, mêmes raccourcis ; dans Premiere : Fenêtre > Extensions > Mori.\n- L'installeur reprend vos réglages, vos favoris de la console et les outils déjà téléchargés, puis retire l'ancien panneau.\n- Apparence : les champs de couleur acceptent un code collé (#E50914, E50914, rgb(229, 9, 20)) ; un clic sélectionne tout le code.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.0/Mori-2.12.0-update.zip",
-      "sha256": "075cdcc259a11e958937092eeec7adf09e9066da267a6929f1470f953840f670"
+      "version": "2.12.1",
+      "notes": "- Mori Console : l'effet Transformation arrive avec « Échelle uniforme » cochée, comme depuis le panneau Effets.\n- Nouveau logo : le kanji 守 (« le gardien »).",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.1/Mori-2.12.1-update.zip",
+      "sha256": "f79bbf56cc5731d0e1d18ce2399d2a17d67db57e914d7e0e2133c7097235624b"
     },
     "ongaku": {
       "name": "Ongaku",
