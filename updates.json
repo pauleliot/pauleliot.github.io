@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.2",
-      "notes": "- Mori Console : elle se précharge en arrière-plan et s'affiche aussitôt au raccourci (plus de fenêtre blanche sur Mac). Redémarrez Premiere après la mise à jour.\n- Mori Console (Mac) : les flèches, Tab, Entrée et Échap répondent.\n- Installeur Mac : le résultat s'affiche dans une fenêtre qui se ferme normalement.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.2/Mori-2.12.2-update.zip",
-      "sha256": "8781d26c9ab0bae6643d54e47c557e4e60d873341c42eebafdb5362a74f5b328"
+      "version": "2.12.3",
+      "notes": "- Réglages > Configuration : « Créer un rapport de diagnostic » écrit sur le Bureau un fichier à envoyer en cas de problème (système, Premiere, console, raccourci, journaux). Rien n'est envoyé automatiquement.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.3/Mori-2.12.3-update.zip",
+      "sha256": "e5f10d5b9c14695a574adf86dbd49e7fa1cb7e9a0d219c3feaf9ae7532cccbb1"
     },
     "ongaku": {
       "name": "Ongaku",
