@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.3",
-      "notes": "- Réglages > Configuration : « Créer un rapport de diagnostic » écrit sur le Bureau un fichier à envoyer en cas de problème (système, Premiere, console, raccourci, journaux). Rien n'est envoyé automatiquement.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.3/Mori-2.12.3-update.zip",
-      "sha256": "e5f10d5b9c14695a574adf86dbd49e7fa1cb7e9a0d219c3feaf9ae7532cccbb1"
+      "version": "2.12.4",
+      "notes": "- Mori Console : les transitions vidéo et audio sont proposées (bouton « Transitions » ou Tab). Elles se posent aux deux bouts des clips sélectionnés.\n- Mori Console (Mac) : les flèches et Tab sont transmises à la console par le raccourci. Redémarrez Premiere après la mise à jour.\n- Rapport de diagnostic : journal des ouvertures de la console.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.4/Mori-2.12.4-update.zip",
+      "sha256": "06fbf830a0340ef76d87bfad9054f4c1f256dc6bb57c5fda360121f3dfb244f8"
     },
     "ongaku": {
       "name": "Ongaku",
