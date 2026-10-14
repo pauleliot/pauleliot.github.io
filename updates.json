@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.7",
-      "notes": "- Mori Console (Windows) : fermer la console la masque au lieu de l'arrêter. Plus de curseur « chargement » à l'ouverture et à la fermeture, et elle réapparaît instantanément. Redémarrez Premiere après la mise à jour.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.7/Mori-2.12.7-update.zip",
-      "sha256": "8a475de4f6002f19da89b18a35f1e0fc01656c6889b7aca0ee2fe0bf6da5e36f"
+      "version": "2.12.8",
+      "notes": "- Mori Console : Transformation arrive bien en « Échelle uniforme » même quand le clip a déjà d'autres effets (UltraKey par exemple).",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.8/Mori-2.12.8-update.zip",
+      "sha256": "b7bb86640a3106549002626e4e6277fd4bca7848e7dedce0d40a94e112ad40d2"
     },
     "ongaku": {
       "name": "Ongaku",
@@ -37,10 +37,10 @@
     },
     "mori-console": {
       "name": "Mori Console",
-      "version": "1.0.1",
-      "notes": "- Windows : fermer la console la masque au lieu de l'arrêter. Plus de curseur « chargement » à l'ouverture et à la fermeture, et elle réapparaît instantanément. Redémarrez Premiere après la mise à jour.\n- La release contient aussi le dossier à copier soi-même dans CEP/extensions, avec son mode d'emploi.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.1/Mori-Console-1.0.1-update.zip",
-      "sha256": "606b138199d219b7ba90f6db3b344401d40fea246cc70d9162298c88c21a2e65"
+      "version": "1.0.2",
+      "notes": "- Mori Console : Transformation arrive bien en « Échelle uniforme » même quand le clip a déjà d'autres effets (UltraKey par exemple).\n- Rapport de diagnostic : l'état du préchargement de la console est bien lu.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.2/Mori-Console-1.0.2-update.zip",
+      "sha256": "f35d8f64c67c80d1493ee5256e2ea8f614b6f18f7ac2250c672e51bac2a2bf38"
     }
   }
 }
