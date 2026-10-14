@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.4",
-      "notes": "- Mori Console : les transitions vidéo et audio sont proposées (bouton « Transitions » ou Tab). Elles se posent aux deux bouts des clips sélectionnés.\n- Mori Console (Mac) : les flèches et Tab sont transmises à la console par le raccourci. Redémarrez Premiere après la mise à jour.\n- Rapport de diagnostic : journal des ouvertures de la console.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.4/Mori-2.12.4-update.zip",
-      "sha256": "06fbf830a0340ef76d87bfad9054f4c1f256dc6bb57c5fda360121f3dfb244f8"
+      "version": "2.12.5",
+      "notes": "- Sécurité : un lien ou une recherche saisi dans le téléchargement en ligne ne peut plus être pris pour une commande par yt-dlp.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.5/Mori-2.12.5-update.zip",
+      "sha256": "655f7e80df69084c9c89cdb84ca1dbcf0f9546a9bd0c4651bd34798e0f4c9db0"
     },
     "ongaku": {
       "name": "Ongaku",
