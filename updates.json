@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.8",
-      "notes": "- Mori Console : Transformation arrive bien en « Échelle uniforme » même quand le clip a déjà d'autres effets (UltraKey par exemple).",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.8/Mori-2.12.8-update.zip",
-      "sha256": "b7bb86640a3106549002626e4e6277fd4bca7848e7dedce0d40a94e112ad40d2"
+      "version": "2.12.9",
+      "notes": "- Le panneau s'appelle « Mori — Studio » dans Fenêtre > Extensions dès l'installation (le nom choisi dans Apparence le remplace ensuite).",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.9/Mori-2.12.9-update.zip",
+      "sha256": "5e6301e0c84d84a95ba338047cc4a6beeaf5a6bf92c38fb21429e90e979c39e0"
     },
     "ongaku": {
       "name": "Ongaku",
