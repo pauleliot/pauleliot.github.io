@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.6",
-      "notes": "- Mori Console : roue crantée en bas à gauche pour changer le raccourci, rechercher et installer les mises à jour, créer un rapport de diagnostic. Redémarrez Premiere après la mise à jour.\n- Mori Console existe aussi seule et gratuite ; installer Mori la remplace en gardant ses favoris.\n- Installeur Mac : les outils (FFmpeg, Deno) sont pris en version Apple Silicon sur les Mac M1 à M4.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.6/Mori-2.12.6-update.zip",
-      "sha256": "67a5d795ff6a4c39bc87fed5596a6ebc737d9841dc0592493cee4f6b696e95c0"
+      "version": "2.12.7",
+      "notes": "- Mori Console (Windows) : fermer la console la masque au lieu de l'arrêter. Plus de curseur « chargement » à l'ouverture et à la fermeture, et elle réapparaît instantanément. Redémarrez Premiere après la mise à jour.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.7/Mori-2.12.7-update.zip",
+      "sha256": "8a475de4f6002f19da89b18a35f1e0fc01656c6889b7aca0ee2fe0bf6da5e36f"
     },
     "ongaku": {
       "name": "Ongaku",
@@ -37,10 +37,10 @@
     },
     "mori-console": {
       "name": "Mori Console",
-      "version": "1.0.0",
-      "notes": "- Première version de Mori Console seule, gratuite : la console d'effets de Mori (effets, transitions, VST et presets) sans le reste du panneau.\n- Raccourci : Ctrl+Espace (Windows), ⌥Espace (Mac), modifiable dans la roue crantée en bas à gauche.\n- Roue crantée : raccourci, mises à jour, rapport de diagnostic.\n- Installer Mori plus tard remplace Mori Console : favoris et récents sont repris.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.0/Mori-Console-1.0.0-update.zip",
-      "sha256": "b609bb7ee92e367712293541fbbf8d320bc853694bfbe23d7e38ea6dbf8ac8df"
+      "version": "1.0.1",
+      "notes": "- Windows : fermer la console la masque au lieu de l'arrêter. Plus de curseur « chargement » à l'ouverture et à la fermeture, et elle réapparaît instantanément. Redémarrez Premiere après la mise à jour.\n- La release contient aussi le dossier à copier soi-même dans CEP/extensions, avec son mode d'emploi.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.1/Mori-Console-1.0.1-update.zip",
+      "sha256": "606b138199d219b7ba90f6db3b344401d40fea246cc70d9162298c88c21a2e65"
     }
   }
 }
