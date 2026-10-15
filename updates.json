@@ -16,10 +16,10 @@
     },
     "ongaku": {
       "name": "Ongaku",
-      "version": "1.8.0",
-      "notes": "- Apparence : police de l'interface au choix (Urbanist, Space Grotesk, Inter) ou police importée, commune à Mori, Ongaku, Sori et Kiru.\n- Mises à jour : le panneau propose lui-même les nouvelles versions.\n- Le panneau Cypher de la suite s'appelle maintenant Mori : thème, police et nom affiché restent partagés entre les quatre panneaux.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/ongaku-v1.8.0/Ongaku-1.8.0-update.zip",
-      "sha256": "d7da84d5730995dfbf597a507ae60bbe2f4170c2c481d2a95c277360c4748513"
+      "version": "1.9.0",
+      "notes": "- Fins : sélectionnez une musique dans la timeline, elle s'ouvre directement dans Ongaku avec la partie utilisée ; « Rendre & remplacer le clip » pose la fin à sa place exacte (sur une piste libre si la queue déborde sur le clip suivant).\n- La tête de lecture d'Ongaku suit celle de Premiere sur le clip sélectionné.\n- Le panneau s'ouvre sur la Bibliothèque ; un clip sélectionné ouvre Fins, une désélection ramène à la Bibliothèque.\n- Fins épuré : valeurs à régler en cliquant-glissant comme dans Premiere (Maj : plus vite, Ctrl : plus fin), ou au clavier d'un simple clic.\n- Touche Espace fiable pour lecture / pause, ainsi que I, O, X et les flèches.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/ongaku-v1.9.0/Ongaku-1.9.0-update.zip",
+      "sha256": "be5d5174fb6da81777e2bcf32725bbfa4c13a1906530dbac92f84b45ee373f40"
     },
     "sori": {
       "name": "Sori",
