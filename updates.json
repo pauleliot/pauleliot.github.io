@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.9",
-      "notes": "- Le panneau s'appelle « Mori — Studio » dans Fenêtre > Extensions dès l'installation (le nom choisi dans Apparence le remplace ensuite).",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.9/Mori-2.12.9-update.zip",
-      "sha256": "5e6301e0c84d84a95ba338047cc4a6beeaf5a6bf92c38fb21429e90e979c39e0"
+      "version": "2.12.10",
+      "notes": "- Web (Mac) : recherche, aperçu et téléchargement bien plus rapides (yt-dlp démarrait en ~10 s à chaque action, maintenant ~0,3 s). Le panneau remplace lui-même l'ancien yt-dlp au démarrage (une fois, en arrière-plan).\n- Web : jusqu'à 3 téléchargements en même temps (un seul avant), chacun annulable.\n- Web : bouton ⬇ sur chaque résultat de recherche pour télécharger tout de suite avec le format et la qualité réglés, sans passer par l'analyse.\n- Web : l'aperçu et le choix du format d'une même vidéo ne demandent plus qu'une seule lecture de la page (deux avant) ; une vidéo ou une recherche déjà vue se rouvre aussitôt, et survoler un résultat le prépare d'avance.\n- Web : version de yt-dlp affichée, avec un bouton « Mettre à jour yt-dlp » (à utiliser quand YouTube refuse une recherche ou un téléchargement).\n- Web (Mac) : ✂ Trim fonctionne (FFmpeg refusait la connexion sécurisée à YouTube).\n- Mac : FFmpeg et Deno installés en version Intel par un ancien installeur sont remplacés par la version Apple Silicon, par l'installeur ou par le panneau au démarrage.\n- Audio, Vidéo, Chutier : le mode automatique (éteint par défaut) est retrouvé dans l'état où vous l'avez laissé à la fermeture.\n- Modes automatiques Audio et Chutier bien plus légers : ils ne reparcourent le projet que s'il a changé, et se mettent en pause pendant que la console est ouverte (elle s'affichait avec plusieurs secondes de retard). Redémarrez Premiere après la mise à jour.\n- Mises à jour : un paquet sans empreinte ou hébergé ailleurs que sur les Releases GitHub de la suite est refusé ; si la copie échoue en route, la version précédente est remise.\n- « Délai d'attente ExtendScript dépassé » bien plus rare : l'import, le rangement des chutiers, la relinke audio et les marqueurs laissent à Premiere le temps de répondre, un délai dépassé n'en déclenche plus d'autres, et le scan automatique du projet s'espace sur les gros projets.\n- Web (Windows) : recherche, analyse et téléchargement bien plus rapides. yt-dlp mettait 4 à 10 s à démarrer à chaque action ; le panneau installe lui-même sa version rapide au démarrage (une fois, en arrière-plan, ~0,5 s ensuite).\n- Web (Windows) : « Annuler » arrête vraiment le téléchargement (yt-dlp continuait en arrière-plan), à toutes les étapes ; fermer le panneau arrête aussi les téléchargements et conversions en cours.\n- Web : une recherche ou une analyse qui ne répond plus est abandonnée après 90 s au lieu de tourner sans fin.\n- Web : le champ de recherche n'est plus souligné par le correcteur orthographique ; sur un panneau étroit, le bouton Télécharger garde seulement son icône au lieu d'être coupé.\n- Mode automatique Vidéo allégé comme Audio et Chutier. Quand Premiere est occupé (rendu, fenêtre ouverte), le panneau attend sa réponse au lieu d'empiler les demandes.\n- Mori Console (Windows) : après Échap, la console restait parfois fermée pour de bon au lieu d'être masquée quand le panneau Mori était ouvert (curseur de chargement à la réouverture).",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.10/Mori-2.12.10-update.zip",
+      "sha256": "bcd383bee2c582809d14e962b69d2d0f0743a37f7964e65c03e9006705e92a4e"
     },
     "ongaku": {
       "name": "Ongaku",
@@ -37,10 +37,10 @@
     },
     "mori-console": {
       "name": "Mori Console",
-      "version": "1.0.2",
-      "notes": "- Mori Console : Transformation arrive bien en « Échelle uniforme » même quand le clip a déjà d'autres effets (UltraKey par exemple).\n- Rapport de diagnostic : l'état du préchargement de la console est bien lu.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.2/Mori-Console-1.0.2-update.zip",
-      "sha256": "f35d8f64c67c80d1493ee5256e2ea8f614b6f18f7ac2250c672e51bac2a2bf38"
+      "version": "1.0.3",
+      "notes": "- Mises à jour : un paquet sans empreinte ou hébergé ailleurs que sur les Releases GitHub de la suite est refusé ; si la copie échoue en route, la version précédente est remise.\n- Corrections internes partagées avec Mori 2.12.10.",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-console-v1.0.3/Mori-Console-1.0.3-update.zip",
+      "sha256": "4918b8844a4e3caade731da4a295bf5d01fb99bfc48d377a23309f3c92a4e346"
     }
   }
 }
