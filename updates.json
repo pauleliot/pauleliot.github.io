@@ -9,10 +9,10 @@
     },
     "mori": {
       "name": "Mori",
-      "version": "2.12.12",
-      "notes": "- Panneau qui ne répondait plus pendant de longues minutes (chutiers, import, téléchargements) : la lecture des marqueurs de la timeline pouvait tourner en rond dans Premiere et occuper toutes ses commandes. Elle s'arrête maintenant au nombre réel de marqueurs, et aucun retour n'est retiré de la liste si la lecture est incomplète.\n- Retours : hors de l'onglet Retours, la timeline n'est relue que toutes les 30 s (toutes les 2 s avant), pour laisser Premiere plus disponible.",
-      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.12.12/Mori-2.12.12-update.zip",
-      "sha256": "2e25995753096a4c233c4ca54afc8cce8022f70a242ab361a34607d96183915c"
+      "version": "2.13.0",
+      "notes": "- Web : un résultat de recherche s'ouvre aussitôt avec ses réglages de téléchargement ; les résolutions disponibles s'affichent dès qu'elles sont lues (YouTube met ~3 s à les donner). Les deux premiers résultats sont lus d'avance.\n- Web : un résultat téléchargé (icône ✓) se glisse directement sur la timeline ou dans un chutier, comme un fichier depuis l'Explorateur ou le Finder ; glisser un résultat pas encore téléchargé lance son téléchargement dans le dernier format choisi.\n- Web, ✂ Trim : les poignées IN et OUT se saisissent aussi par leur étiquette, et le glisser fonctionne sur Mac.\n- Checker, niveaux légaux : tolérances EBU R103 (luminance −1 % à 103 %, couleurs −5 % à 105 %, au plus 1 % de la surface) au lieu d'une erreur dès qu'un pixel sortait de 16-235 ; la couleur (gamut RGB) est maintenant vérifiée.\n- Checker, flashs : luminance mesurée en cd/m² et flash compté seulement sur au moins un quart de l'écran (règles PSE d'Ofcom / BT.1702). Fini les fausses alertes dans les scènes sombres ; les flashs clairs ou localisés sont détectés.\n- Checker, normes France TV et TF1 (RT-040) : un GOP ouvert n'est plus une erreur (l'XDCAM HD422 est toujours en GOP ouvert de 12 images) ; N=12 et M=3 restent vérifiés.\n- Retours : le bouton Capture est retiré (la lecture des captures n'existait pas dans le panneau installé).",
+      "url": "https://github.com/pauleliot/Mori-Suite/releases/download/mori-v2.13.0/Mori-2.13.0-update.zip",
+      "sha256": "8dffa08435484bbfb935ae39eeb1d8c7618f6f13401e7596552f1b6828e61b2f"
     },
     "ongaku": {
       "name": "Ongaku",
